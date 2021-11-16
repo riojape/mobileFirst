@@ -26,6 +26,10 @@ html{
     --off-white: #faf8f7;
     --just-white: #fff;
 }
+/* body{
+    width: 100%;
+    min-width: 320px;
+} */
 header{
     position: relative;
     display: flex;
@@ -89,5 +93,40 @@ header img{
     height: 8px;
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
-    
+}
+.container-one{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.container-texto{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.backgroundImg{
+    background-image: url("./assets/img/Bitcoin.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.container-texto h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.container-texto p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
 }
