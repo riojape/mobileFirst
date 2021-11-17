@@ -94,7 +94,7 @@ header img{
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
 }
-.container-one{
+.exchanges-container{
     width: 100%;
     height: auto;
     padding-top: 80px;
@@ -218,7 +218,7 @@ table .table__right .up {
     line-height: 1.5rem;
 }
 /*Seccion de beneficios*/
-.container-two {
+.benefits-container {
     position: relative;
     width: 100%;
     min-width: 320px;
@@ -258,4 +258,68 @@ table .table__right .up {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+.product-card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.producto-card--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-card--body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.eye {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/eye.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.dolar {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/dollar-sign.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.check-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/check-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
