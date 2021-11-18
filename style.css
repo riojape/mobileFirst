@@ -380,7 +380,7 @@ table .table__right .up {
     width: 70%;
     min-width: 224px;
     max-width: 300px;
-    height: 250px; /* 250px*/
+    height: auto; /* 250px*/
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
@@ -425,4 +425,30 @@ table .table__right .up {
     color: #757575;
     text-align: center;
     padding: 10px 10px;
+}
+.card-content--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: var(--off-white);
+    border: var(--bitcoin-orange) 2px solid;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+.card-content--ca span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("./assets/icons/orange-right-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-left: 10px;
 }
