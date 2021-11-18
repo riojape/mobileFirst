@@ -341,3 +341,10 @@ table .table__right .up {
     color: var(--just-white);
     text-align: center;
 }
+/* Seccion de Planes */
+.plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
