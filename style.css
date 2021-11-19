@@ -131,7 +131,15 @@ header img{
     font-weight: 500;
     color: #757575;
 }
+.main__section-table {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main__container-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -329,7 +337,7 @@ table .table__right .up {
     background-position: center;
     background-size: cover;
 }
-/* Seccion de planes */
+/* Seccion imagen de fondo */
 .bitcoin-img-container {
     width: 100%;
     min-width: 320px;
@@ -379,10 +387,16 @@ table .table__right .up {
 .plans-container--slider {
     width: 100%;
     min-width: 320px;
-    height: auto;
+    height: 316px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 224px;
     max-width: 300px;
