@@ -217,6 +217,12 @@ table .table__right .up {
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
+.table-title__two {
+    color: var(--secondary-blue);
+}
+.upgrade-container__two {
+    background-color: var(--soft-blue);
+}
 /*Seccion de beneficios*/
 .benefits-container {
     position: relative;
@@ -380,7 +386,7 @@ table .table__right .up {
     width: 70%;
     min-width: 224px;
     max-width: 300px;
-    height: auto; /* 250px*/
+    height: 250px; /* 250px*/
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
